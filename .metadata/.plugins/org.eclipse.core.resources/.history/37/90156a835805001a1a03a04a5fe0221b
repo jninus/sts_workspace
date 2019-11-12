@@ -1,0 +1,5 @@
+package com.reda.spring.controllers;
+
+public class ProductController {
+
+}

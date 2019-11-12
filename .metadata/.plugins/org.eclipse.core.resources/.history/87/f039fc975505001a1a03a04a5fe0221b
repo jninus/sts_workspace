@@ -1,0 +1,14 @@
+package com.reda.spring.boot.web.controllers;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloController {
+
+	public String greet(String username) {
+
+		return "Hello " + username;
+
+	}
+
+}

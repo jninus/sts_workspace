@@ -1,0 +1,21 @@
+package com.reda.spring.data;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
+
+import com.reda.spring.data.repos.ProductRepository;
+
+@SpringBootTest
+class SpringdatajpaApplicationTests {
+
+	@Autowired
+	ApplicationContext context;
+
+	@Test
+	void saveProduct() {
+		ProductRepository productRepository = context.getBean(ProductRepository.class);
+	}
+
+}

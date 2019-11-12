@@ -1,0 +1,5 @@
+package com.reda.spring.boot.web.controllers;
+
+public class HelloController {
+
+}

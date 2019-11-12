@@ -1,0 +1,16 @@
+package com.reda.spring.boot.web.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloController {
+
+	@RequestMapping("/hello")
+	public String greet(String username) {
+
+		return "hello " + username;
+
+	}
+
+}

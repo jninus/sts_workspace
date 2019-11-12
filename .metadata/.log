@@ -1,0 +1,311 @@
+!SESSION 2019-11-10 11:48:32.485 -----------------------------------------------
+eclipse.buildId=4.4.1.201910232221-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-11-10 11:49:38.078
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-10 11:49:38.078
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@405223e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d2133fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-11-10 12:47:26.604
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2019-11-12 13:55:21.151 -----------------------------------------------
+eclipse.buildId=4.4.1.201910232221-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-11-12 13:55:43.365
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-12 13:55:43.365
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39f68aec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65ff4b8c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-11-12 14:07:00.573
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:07:52.832
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:07:52.832
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@52518ee1[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:07:52.836
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:07:53.483
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:03.043
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:03.043
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@52518ee1[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:03.043
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:13.747
+!MESSAGE Boot LS startup time from start to initialized: 10702ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.076
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SwumbOlmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.086
+!MESSAGE subscribing to classpath changes: sts4.classpath.SwumbOlm isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.088
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.091
+!MESSAGE subsribers = {sts4.classpath.SwumbOlm=Send Classpath Notifications(213)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.091
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.091
+!MESSAGE project springdatajpa ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.091
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.092
+!MESSAGE Preparing classpath changed notification springdatajpa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.092
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.092
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.092
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SwumbOlm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.101
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.102
+!MESSAGE buffering callback sts4.classpath.SwumbOlm springdatajpa false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.102
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.107
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.109
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.110
+!MESSAGE buffering callback sts4.classpath.SwumbOlm demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.111
+!MESSAGE executing callback sts4.classpath.SwumbOlm 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:08:14.396
+!MESSAGE executing callback sts4.classpath.SwumbOlm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.496
+!MESSAGE Preparing classpath changed notification springbootweb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.496
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.498
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.498
+!MESSAGE buffering callback sts4.classpath.SwumbOlm springbootweb false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.498
+!MESSAGE executing callback sts4.classpath.SwumbOlm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.506
+!MESSAGE executing callback sts4.classpath.SwumbOlm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.776
+!MESSAGE Preparing classpath changed notification springbootweb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.777
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.779
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.779
+!MESSAGE buffering callback sts4.classpath.SwumbOlm springbootweb false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.779
+!MESSAGE executing callback sts4.classpath.SwumbOlm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:01.786
+!MESSAGE executing callback sts4.classpath.SwumbOlm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:15.077
+!MESSAGE Preparing classpath changed notification springbootweb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:15.077
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:15.080
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:15.081
+!MESSAGE buffering callback sts4.classpath.SwumbOlm springbootweb false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:15.081
+!MESSAGE executing callback sts4.classpath.SwumbOlm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:15.087
+!MESSAGE executing callback sts4.classpath.SwumbOlm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:28.182
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SwumbOlm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:28.183
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SwumbOlm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:28.183
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:03:28.184
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SwumbOlm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:16.760
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:16.760
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@52518ee1[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:16.760
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.877
+!MESSAGE Boot LS startup time from start to initialized: 2115ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.908
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aSCORsaSisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.909
+!MESSAGE subscribing to classpath changes: sts4.classpath.aSCORsaS isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.909
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.911
+!MESSAGE subsribers = {sts4.classpath.aSCORsaS=Send Classpath Notifications(1776)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.912
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.912
+!MESSAGE project springbootweb ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.913
+!MESSAGE Preparing classpath changed notification springbootweb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.913
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.914
+!MESSAGE project springdatajpa ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.914
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.914
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aSCORsaS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.916
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.917
+!MESSAGE buffering callback sts4.classpath.aSCORsaS springbootweb false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.917
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.919
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.920
+!MESSAGE buffering callback sts4.classpath.aSCORsaS demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.921
+!MESSAGE Preparing classpath changed notification springdatajpa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.921
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.923
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.924
+!MESSAGE buffering callback sts4.classpath.aSCORsaS springdatajpa false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:18.924
+!MESSAGE executing callback sts4.classpath.aSCORsaS 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:05:19.007
+!MESSAGE executing callback sts4.classpath.aSCORsaS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:25:33.055
+!MESSAGE Preparing classpath changed notification springdatajpa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:25:33.056
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:25:33.059
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:25:33.062
+!MESSAGE buffering callback sts4.classpath.aSCORsaS springdatajpa false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:25:33.062
+!MESSAGE executing callback sts4.classpath.aSCORsaS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 15:25:33.077
+!MESSAGE executing callback sts4.classpath.aSCORsaS SUCCESS [done]

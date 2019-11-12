@@ -1,0 +1,5 @@
+package com.reda.spring.data.entities;
+
+public class Product {
+
+}
